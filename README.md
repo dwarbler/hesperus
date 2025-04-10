@@ -11,3 +11,6 @@ Feel free to contact me anytime through email (derekw3@illinois.edu) or [LinkedI
 #### Sirihaasa Nallamothu
 
 #### Swetha Yegappan
+
+## Overview
+Hesperus is a software which utilizes the ADS-B airplane broadcasting protocol to provide both an easily digestible interface for flight tracking, but also more advanced features such as possible collision detection, hyperbolic location based plane triangulation, signal validation and more. This provides a secure airplane tracking system with features like broadcast validation, all which can be used in a GPS-free manner.

@@ -1,0 +1,11 @@
+[project]
+name = "hesperus-backend"
+version = "0.1.0"
+description = "The python-based backend for hesperus"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.pyright]
+venv = ".venv"
+venvPath = "."

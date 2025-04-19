@@ -1,0 +1,14 @@
+[project]
+name = "raspi"
+version = "0.1.0"
+description = "The server code to be run on a RaspberryPi for data aggregation within hesperus"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.2.4",
+    "pyrtlsdr>=0.3.0",
+]
+
+[tool.pyright]
+venv = ".venv"
+venvPath = "."

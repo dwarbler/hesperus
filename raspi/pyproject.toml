@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "numpy>=2.2.4",
-    "pyrtlsdr>=0.3.0",
+    "pymodes>=2.20",
 ]
 
 [tool.pyright]

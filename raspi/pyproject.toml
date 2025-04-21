@@ -4,11 +4,15 @@ version = "0.1.0"
 description = "The server code to be run on a RaspberryPi for data aggregation within hesperus"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "numpy>=2.2.4",
-    "pymodes>=2.20",
-]
+dependencies = ["numpy>=2.2.4", "pymodes>=2.20"]
 
 [tool.pyright]
 venv = ".venv"
 venvPath = "."
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["D", "DOC"]

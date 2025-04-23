@@ -1,4 +1,4 @@
-"""Acquire, decode, normalize and store ADS-B data with dump1090, pyModeS and MySQL."""
+"""Acquire, decode, normalize and store ADS-B data with dump1090, pyModeS and MariaDB."""
 
 import pyModeS as pms
 from pyModeS.extra.tcpclient import TcpClient
